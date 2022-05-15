@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+
+}
+body {
+	font-family:"000 10 Cents Comic [TeddyBear]";
+	background-color:#16F7B5 ;
+}
+h1{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+div {
+	position: relative;
+	float:  left;
+	border: 1px solid black;
+	background-color: #18AB7F;
+}
+p {
+	position: relative;
+	margin: 0px;
+	padding: 5px;
+	clear: both ;
+	border-collapse: collapse;
+}
+h2{
+	float: right;
+	margin: 0;
+	position: relative;
+	top:  0px;
+	right: 0px;
+	border: 1px solid black;
+	padding: 2px 30px;
+	}
+/*****Just make color******/
+#s {
+	background-color:#950FAB ;
+	color: white;
+}
+#d {
+	background-color:#FACE58 ;
+}
+#h {
+	background-color:#DB2FF7 ;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	div{
+		margin: 0px 1.1%;
+	}
+		.squat{
+		width: 31%;
+	}
+		.dl{
+		width: 31%;
+	}
+		.hiit{
+		width: 31%;
+	}
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+	div{
+		margin:20px 2%;
+	}
+
+		.squat{
+		width: 46%;
+	}
+		.dl{
+		width: 46%;
+	}
+		.hiit{
+		width: 96%;
+	}
+}
+/********** Small devices only **********/
+@media  (max-width: 767px){
+	div{
+		margin:20px 2%;
+	}
+		.squat{
+		width: 96%;
+	}
+		.dl{
+		width: 96%;
+	}
+		.hiit{
+		width: 96%;
+	}
+}
